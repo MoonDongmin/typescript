@@ -1,7 +1,7 @@
-import {createRangeIterable} from "./createRangeIterable";
-import {RangeIterable} from "./RangeIterable";
-
-const iterator = new RangeIterable(1, 3 + 1)
-
-for(let value of iterator)
-    console.log(value)
+import { createRangeIterable } from './createRangeIterable'
+const iterator = createRangeIterable(1, 3 + 1)
+while (true) {
+  const { value, done } = iterator.next()
+  if (done) break
+  console.log(value) // 1 2 3
+}
