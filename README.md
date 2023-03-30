@@ -1,7 +1,6 @@
 # typescript
 
-# Studying typescript.....
-# JavaSeminar2022,2023
+# Studying typescript....
 <!DOCTYPE HTML>
 <html>
   <body>
