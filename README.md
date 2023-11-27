@@ -16,3 +16,5 @@ height="40px"/></a>
 [Chapter03. 타입스크립트 기초: 변수와 함수의 타입 정의](https://www.notion.so/Chapter03-c65bc43acf894de8ae026e20584aa6ec?pvs=21)
 
 [Chapter04. 첫 번째 프로젝트: 할 일 관리 앱](https://www.notion.so/moondongmin/Chapter04-2ef448d23c86466e8ed14e30c7a8634c)
+
+[Chapter05.  인터페이스](https://www.notion.so/moondongmin/Chapter05-b422287a196e4386aada487d23633c3c)
