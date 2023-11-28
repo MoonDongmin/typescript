@@ -18,3 +18,5 @@ height="40px"/></a>
 [Chapter04. 첫 번째 프로젝트: 할 일 관리 앱](https://www.notion.so/moondongmin/Chapter04-2ef448d23c86466e8ed14e30c7a8634c)
 
 [Chapter05.  인터페이스](https://www.notion.so/moondongmin/Chapter05-b422287a196e4386aada487d23633c3c)
+
+[Chapter06. 연산자를 사용한 타입 정의](https://www.notion.so/moondongmin/Chapter06-8b7518e243ed44758af858d0ccbf812c)
