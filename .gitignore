@@ -8,6 +8,7 @@
 
 #
 node_modules
+.idea
 
 
 # User-specific stuff

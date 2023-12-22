@@ -15,5 +15,5 @@ class WaterPurifier {
 let purifier = new WaterPurifier(30);
 purifier.wash();
 
-purifier.#waterAmount = 0;
+// purifier.#waterAmount = 0;
 purifier.wash();
