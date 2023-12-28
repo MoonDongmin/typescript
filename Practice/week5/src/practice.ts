@@ -7,6 +7,7 @@
  *  - 이것을 클래스로 각각 대상별로 객체를 생상해 객체의 정보를 출력해라.
  *  공통속성: 이름, 전화번호, 이메일
  * */
+
 class People {
     #name: string;
     #phoneNumber: number;
@@ -23,7 +24,7 @@ class People {
     }
 }
 
-class Professor extends People {
+class Professor1 extends People {
     #professorNumber: number;
     #lab: string;
 
@@ -40,7 +41,7 @@ class Professor extends People {
 }
 
 
-class Employee extends People {
+class Employee1 extends People {
     #empNumber: number;
     #office: string;
 
@@ -56,7 +57,7 @@ class Employee extends People {
     }
 }
 
-class Student extends People {
+class Student1 extends People {
     #studentNumber: number;
     #degree: string;
 
@@ -72,7 +73,7 @@ class Student extends People {
     }
 }
 
-class Master extends People {
+class Master1 extends People {
     #masterNumber: number;
     #degree: string;
 
@@ -91,10 +92,10 @@ class Master extends People {
 let person = new People("문동민", 1064558761, "water8760@naver.com");
 person.introduce();
 
-let professor = new Professor(123, "박현주", 12345, "@hanbat.ac.kr", "wisoft");
-professor.introduce();
+let professor1 = new Professor1(123, "박현주", 12345, "@hanbat.ac.kr", "wisoft");
+professor1.introduce();
 
-let student = new Student(20191836, "문동민", 12345, "water_8760@naver.com", "학부");
-student.introduce();
+let student1 = new Student1(20191836, "문동민", 12345, "water_8760@naver.com", "학부");
+student1.introduce();
 
 

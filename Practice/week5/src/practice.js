@@ -1,3 +1,12 @@
+/**
+ * 우리는 한밭대학교에 있습니다. 교수 학생 직원이 있습니다.
+ *  - 교수는 교수번호, 이름, 전화번호, 이메일, 연구실
+ *  - 직원은 직원번호, 이름, 전화번호, 이메일, 사무실
+ *  - 학생 학번, 이름, 전화번호, 이메일, 학적
+ *  - 학부 / 학생
+ *  - 이것을 클래스로 각각 대상별로 객체를 생상해 객체의 정보를 출력해라.
+ *  공통속성: 이름, 전화번호, 이메일
+ * */
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -25,15 +34,6 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _People_name, _People_phoneNumber, _People_email, _Professor_professorNumber, _Professor_lab, _Employee_empNumber, _Employee_office, _Student_studentNumber, _Student_degree, _Master_masterNumber, _Master_degree;
-/**
- * 우리는 한밭대학교에 있습니다. 교수 학생 직원이 있습니다.
- *  - 교수는 교수번호, 이름, 전화번호, 이메일, 연구실
- *  - 직원은 직원번호, 이름, 전화번호, 이메일, 사무실
- *  - 학생 학번, 이름, 전화번호, 이메일, 학적
- *  - 학부 / 학생
- *  - 이것을 클래스로 각각 대상별로 객체를 생상해 객체의 정보를 출력해라.
- *  공통속성: 이름, 전화번호, 이메일
- * */
 var People = /** @class */ (function () {
     function People(name, phoneNumber, email) {
         _People_name.set(this, void 0);
@@ -60,8 +60,7 @@ var Professor = /** @class */ (function (_super) {
         return _this;
     }
     Professor.prototype.introduce = function () {
-        _super.prototype.introduce.call(this);
-        console.log("+ 교수 번호: " + __classPrivateFieldGet(this, _Professor_professorNumber, "f") + ", 연구실: " + __classPrivateFieldGet(this, _Professor_lab, "f"));
+        console.log(_super.prototype.introduce.call(this) + "+ 교수 번호: " + __classPrivateFieldGet(this, _Professor_professorNumber, "f") + ", 연구실: " + __classPrivateFieldGet(this, _Professor_lab, "f"));
     };
     return Professor;
 }(People));
