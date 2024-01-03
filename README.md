@@ -20,3 +20,13 @@ height="40px"/></a>
 [Chapter05.  인터페이스](https://www.notion.so/moondongmin/Chapter05-b422287a196e4386aada487d23633c3c)
 
 [Chapter06. 연산자를 사용한 타입 정의](https://www.notion.so/moondongmin/Chapter06-8b7518e243ed44758af858d0ccbf812c)
+
+[Chapter07. 타입 별칭](https://www.notion.so/moondongmin/Chapter07-b0d933ca15d5427e9653f2cd5cf844b2)
+
+[Chapter08. 이넘](https://www.notion.so/Chapter08-fa8951e815024797a016fa7455d95b8f?pvs=21)
+
+[Chapter09. 클래스](https://www.notion.so/Chapter09-f490c3da487645ce83741cbb904d4dc8?pvs=21)
+
+[Chapter10. 제네릭](https://www.notion.so/Chapter10-642e2088184849e88f4260979b0c7c6d?pvs=21)
+
+[Chapter11. 두 번째 프로젝트: 전화번호부 앱](https://www.notion.so/Chapter11-58b215e226764985a3bb196468d1d97c?pvs=21)
