@@ -1,3 +1,4 @@
+"use strict";
 // // 부모 클래스
 // class Person {
 //     name: string;

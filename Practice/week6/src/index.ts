@@ -9,15 +9,15 @@ interface Contact {
     address: string;
     phones: PhoneNumberDictionary;
 }
-
 // api
 // TODO: 아래 함수의 반환 타입을 지정해보세요.
-function fetchContacts(): Promise<Contact[]> {
+function fetchContacts() {
+
     // TODO: 아래 변수의 타입을 지정해보세요.
-    const contacts: Contact[] = [
+    const contacts = [
         {
-            name: "Tony",
-            address: "Malibu",
+            name: 'Tony',
+            address: 'Malibu',
             phones: {
                 home: {
                     num: 11122223333,
@@ -28,8 +28,8 @@ function fetchContacts(): Promise<Contact[]> {
             },
         },
         {
-            name: "Banner",
-            address: "New York",
+            name: 'Banner',
+            address: 'New York',
             phones: {
                 home: {
                     num: 77788889999,
@@ -37,8 +37,8 @@ function fetchContacts(): Promise<Contact[]> {
             },
         },
         {
-            name: "마동석",
-            address: "서울시 강남구",
+            name: '마동석',
+            address: '서울시 강남구',
             phones: {
                 home: {
                     num: 213423452,
@@ -55,58 +55,47 @@ function fetchContacts(): Promise<Contact[]> {
 }
 
 // main
-enum PhoneType {
-    Home = "home",
-    Office = "office",
-    Studio = "studio"
-}
-
 class AddressBook {
     // TODO: 아래 변수의 타입을 지정해보세요.
-    contacts: Contact[] = [];
+    contacts = [];
 
     constructor() {
         this.fetchData();
     }
 
-    fetchData(): void {
+    fetchData() {
         fetchContacts().then(response => {
             this.contacts = response;
         });
     }
 
     /* TODO: 아래 함수들의 파라미터 타입과 반환 타입을 지정해보세요 */
-    findContactByName(name: string): Contact[] {
+    findContactByName(name) {
         return this.contacts.filter(contact => contact.name === name);
     }
 
-    findContactByAddress(address: string): Contact[] {
+    findContactByAddress(address) {
         return this.contacts.filter(contact => contact.address === address);
     }
 
-    findContactByPhone(phoneNumber: number, phoneType: PhoneType): Contact[] {
+    findContactByPhone(phoneNumber, phoneType: string) {
         return this.contacts.filter(
-            contact => contact.phones[phoneType].num === phoneNumber,
+            contact => contact.phones[phoneType].num === phoneNumber
         );
     }
 
-    addContact(contact: Contact): void {
+    addContact(contact) {
         this.contacts.push(contact);
     }
 
-    displayListByName(): string[] {
+    displayListByName() {
         return this.contacts.map(contact => contact.name);
     }
 
-    displayListByAddress(): string[] {
+    displayListByAddress() {
         return this.contacts.map(contact => contact.address);
     }
-
     /* ------------------------------------------------ */
 }
 
 new AddressBook();
-
-const book = new AddressBook();
-// book.findContactByPhone(11122223333, "homeee");
-book.findContactByPhone(11122223333, PhoneType.Home);
