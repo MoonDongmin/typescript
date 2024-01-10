@@ -32,3 +32,5 @@ height="40px"/></a>
 [Chapter11. 두 번째 프로젝트: 전화번호부 앱](https://www.notion.so/Chapter11-58b215e226764985a3bb196468d1d97c?pvs=21)
 
 [Chapter12. 타입 추론](https://www.notion.so/moondongmin/Chapter12-49572c3da1384bd28913e76a94135c1f)
+
+[Chapter13. 타입 단언](https://www.notion.so/moondongmin/Chapter-13-48128b5c4e924c38b9200cae653a4a17)
