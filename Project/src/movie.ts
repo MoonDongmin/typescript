@@ -72,8 +72,14 @@ function showMovieDetail(userInput: number) {
     console.log(`평점: ${selectMovie.rating}`);
     console.log(`줄거리: ${selectMovie.summary}`);
     console.log("===============================");
-    console.log("상세보기를 종료하려면 q를 입력하시오.");
 }
+
+showMovieList();
+
+rl.question("상세 정보를 원하는 영화를 고르시오: ", (userInput) => {
+    showMovieDetail(Number(userInput));
+    rl.close();
+});
 
 
 
