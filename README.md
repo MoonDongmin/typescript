@@ -35,4 +35,6 @@ height="40px"/></a>
 
 [Chapter13. 타입 단언](https://www.notion.so/moondongmin/Chapter-13-48128b5c4e924c38b9200cae653a4a17)
 
+[Chapter 14. 타입 가드](https://www.notion.so/moondongmin/Chapter-14-aee583186bdf4d5dab404f2a572b3417)
+
 [프로젝트-영화 예매 프로그램](https://github.com/MoonDongmin/typescript/tree/main/Project)
