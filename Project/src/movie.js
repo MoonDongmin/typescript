@@ -1,11 +1,8 @@
 "use strict";
+// import * as readline from "readline";
 Object.defineProperty(exports, "__esModule", { value: true });
-var readline = require("readline");
-var rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-});
-var movies = [
+exports.showMovieTime = exports.showMovieDetail = exports.showMovieList = exports.movies = void 0;
+exports.movies = [
     {
         title: "인투더 월드",
         genre: "애니메이션",
@@ -49,35 +46,27 @@ var movies = [
 ];
 function showMovieList() {
     console.log("==== 2024년 1월 영화 리스트 === ");
-    for (var i = 0; i < movies.length; i++) {
-        console.log("".concat(i + 1, ". ").concat(movies[i].title));
+    for (var i = 0; i < exports.movies.length; i++) {
+        console.log("".concat(i + 1, ". ").concat(exports.movies[i].title));
     }
     console.log("===============================");
 }
+exports.showMovieList = showMovieList;
 function showMovieDetail(userInput) {
-    var selectMovie = movies[userInput - 1];
+    var selectMovie = exports.movies[userInput - 1];
     console.log("===============================");
     console.log("\uC601\uD654 \uC81C\uBAA9: ".concat(selectMovie.title));
     console.log("\uC7A5\uB974: ".concat(selectMovie.genre));
     console.log("\uD3C9\uC810: ".concat(selectMovie.rating));
     console.log("\uC904\uAC70\uB9AC: ".concat(selectMovie.summary));
     console.log("===============================");
-    console.log("상세보기를 종료하려면 q를 입력하시오.");
 }
-while (true) {
-    showMovieList();
-    rl.question("상세 정보를 원하는 영화를 고르시오: ", function (userInput) {
-        while (true) {
-            showMovieList();
-            showMovieDetail(Number(userInput));
-            if (Number(userInput) > 5 || isNaN(Number(userInput))) {
-                console.log("잘못된 입력번호 입니다. 다시 시도해 주시기 바랍니다.");
-                break;
-            }
-            if (userInput === "q") {
-                break;
-            }
-        }
-        rl.close();
-    });
+exports.showMovieDetail = showMovieDetail;
+function showMovieTime(userInput) {
+    console.log("<".concat(exports.movies[userInput - 1].title, "> \uC0C1\uC601\uC2DC\uAC04 "));
+    console.log("".concat(exports.movies[userInput - 1].showTime, " "));
 }
+exports.showMovieTime = showMovieTime;
+// export function selectMovieTime(userInput: number): string[] {
+//     return movies[userInput - 1].showTime;
+// }

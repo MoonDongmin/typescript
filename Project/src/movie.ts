@@ -1,11 +1,11 @@
-import * as readline from "readline";
+// import * as readline from "readline";
 
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-});
+// const rl = readline.createInterface({
+//     input: process.stdin,
+//     output: process.stdout,
+// });
 
-interface Movie {
+export interface Movie {
     title: string;
     genre: string;
     rating: number;
@@ -13,7 +13,7 @@ interface Movie {
     showTime: string[];
 }
 
-const movies: Movie[] = [
+export const movies: Movie[] = [
     {
         title: "인투더 월드",
         genre: "애니메이션",
@@ -56,7 +56,7 @@ const movies: Movie[] = [
     },
 ];
 
-function showMovieList() {
+export function showMovieList(): void {
     console.log("==== 2024년 1월 영화 리스트 === ");
     for (let i = 0; i < movies.length; i++) {
         console.log(`${i + 1}. ${movies[i].title}`);
@@ -64,7 +64,7 @@ function showMovieList() {
     console.log("===============================");
 }
 
-function showMovieDetail(userInput: number) {
+export function showMovieDetail(userInput: number): void {
     const selectMovie = movies[userInput - 1];
     console.log("===============================");
     console.log(`영화 제목: ${selectMovie.title}`);
@@ -74,12 +74,16 @@ function showMovieDetail(userInput: number) {
     console.log("===============================");
 }
 
-showMovieList();
+export function showMovieTime(userInput: number): void {
+    console.log(`<${movies[userInput - 1].title}> 상영시간 `);
+    console.log(`${movies[userInput - 1].showTime} `);
+}
 
-rl.question("상세 정보를 원하는 영화를 고르시오: ", (userInput) => {
-    showMovieDetail(Number(userInput));
-    rl.close();
-});
+// export function selectMovieTime(userInput: number): string[] {
+//     return movies[userInput - 1].showTime;
+// }
+
+
 
 
 

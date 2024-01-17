@@ -16,11 +16,9 @@ function displaySeat(seats: number[]): void {
 
 function seatReservation(seats: number[], people: number, selectedSeats: string): boolean {
     const selectedSeatArray = selectedSeats.split(" ");
-    console.log(selectedSeatArray);
 
     for (let seat of selectedSeatArray) {
         const seatIndex = parseInt(seat.substring(1));
-        console.log(seatIndex);
 
         if (isNaN(seatIndex) || selectedSeatArray.length != people || seatIndex > seats.length || seatIndex < 0) {
             console.log(`"${seat}"의 올바른 좌석 번호를 선택하세요.`);
@@ -36,7 +34,7 @@ function seatReservation(seats: number[], people: number, selectedSeats: string)
     return true;
 }
 
-function seatMain(): void {
+export function seatMain(): void {
     let seats: number[] = new Array(10).fill(0);
     displaySeat(seats);
 
