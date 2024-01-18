@@ -53,4 +53,3 @@ function seatMain() {
     return numberOfPeople;
 }
 exports.seatMain = seatMain;
-seatMain();
