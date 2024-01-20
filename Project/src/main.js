@@ -10,10 +10,12 @@ function main() {
             (0, movie_1.showMovieList)();
         }
         else if (userInput === 2) {
+            (0, movie_1.showMovieList)();
             var movieNumber = readlineSync.questionInt("보고싶은 영화 상세 정보 번호를 누르시오: ");
             (0, movie_1.showMovieDetail)(movieNumber);
         }
         else if (userInput === 3) {
+            (0, movie_1.showMovieList)();
             var movieTime = readlineSync.questionInt("상영시간을 알고싶은 영화 번호를 누르시오: ");
             (0, movie_1.showMovieTime)(movieTime);
         }

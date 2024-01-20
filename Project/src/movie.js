@@ -63,10 +63,9 @@ function showMovieDetail(userInput) {
 }
 exports.showMovieDetail = showMovieDetail;
 function showMovieTime(userInput) {
+    console.log("=============================");
     console.log("<".concat(exports.movies[userInput - 1].title, "> \uC0C1\uC601\uC2DC\uAC04 "));
     console.log("".concat(exports.movies[userInput - 1].showTime, " "));
+    console.log("=============================");
 }
 exports.showMovieTime = showMovieTime;
-// export function selectMovieTime(userInput: number): string[] {
-//     return movies[userInput - 1].showTime;
-// }

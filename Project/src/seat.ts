@@ -15,10 +15,10 @@ function displaySeat(seats: number[]): void {
 }
 
 function seatReservation(seats: number[], people: number, selectedSeats: string): boolean {
-    const selectedSeatArray = selectedSeats.split(" ");
+    const selectedSeatArray: string[] = selectedSeats.split(" ");
 
     for (let seat of selectedSeatArray) {
-        const seatIndex = parseInt(seat.substring(1));
+        const seatIndex: number = parseInt(seat.substring(1));
 
         if (isNaN(seatIndex) || selectedSeatArray.length != people || seatIndex > seats.length || seatIndex < 0) {
             console.log(`"${seat}"의 올바른 좌석 번호를 선택하세요.`);
@@ -38,14 +38,14 @@ export function seatMain(): number {
     let seats: number[] = new Array(10).fill(0);
     displaySeat(seats);
 
-    const numberOfPeople = readlineSync.questionInt("인원 수를 입력해 주세요: ");
+    const numberOfPeople: number = readlineSync.questionInt("인원 수를 입력해 주세요: ");
     if (isNaN(numberOfPeople) || numberOfPeople <= 0) {
         console.log("올바른 숫자를 입력하세요.");
     }
 
-    let selectedSeat = readlineSync.question("원하는 좌석을 선택하세요 (A1 ~ A10까지): ").toUpperCase();
+    let selectedSeat: string = readlineSync.question("원하는 좌석을 선택하세요 (A1 ~ A10까지): ").toUpperCase();
 
-    const reservationSuccess = seatReservation(seats, numberOfPeople, selectedSeat);
+    const reservationSuccess: boolean = seatReservation(seats, numberOfPeople, selectedSeat);
 
     if (reservationSuccess) {
         console.log(`${numberOfPeople}명의 좌석 예약이 완료되었습니다.`);

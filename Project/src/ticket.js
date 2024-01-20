@@ -5,10 +5,13 @@ var movie_1 = require("./movie");
 var readlineSync = require("readline-sync");
 var seat_1 = require("./seat");
 function ticket(title, time, people) {
+    console.log("=============================");
+    console.log("Dongmin Cinema");
     console.log("".concat(movie_1.movies[title - 1].title));
     console.log("\uC0C1\uC601\uC2DC\uAC04: ".concat(movie_1.movies[title - 1].showTime[time - 1]));
     console.log("\uC778\uC6D0: ".concat(people));
     console.log("\uCD1D \uAC00\uACA9: ".concat(people * 14000));
+    console.log("=============================");
 }
 exports.ticket = ticket;
 function ticketing() {
