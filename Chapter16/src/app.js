@@ -1,3 +1,9 @@
-let math = require('./math.js');
+// let math = require('./math.js');
 
-console.log(math.sum(10, 20));
+// export 구문
+import {sum as add} from './math.js';
+
+// default 구문
+// import sum from './math.js';
+
+console.log(sum(10, 20));
