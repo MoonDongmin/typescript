@@ -39,4 +39,6 @@ height="40px"/></a>
 
 [Chapter 15. 타입 호환](https://moondongmin.notion.site/Chapter-15-e9102fc33705484f80dc5618a91f3c21?pvs=4)
 
+[Chapter 16. 타입 모듈](https://www.notion.so/moondongmin/Chapter-16-e3bee935b0f548c7baa303a64f0aed0c)
+
 [프로젝트-영화 예매 프로그램](https://github.com/MoonDongmin/typescript/tree/main/Project)
