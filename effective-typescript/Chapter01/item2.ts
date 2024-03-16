@@ -1,5 +1,7 @@
-function add(a:number, b:number) {
+function add(a: number, b: number) {
     return a + b;
 }
 
-console.log(add(10, 11);
+const x: number = null;
+
+console.log(add(10, 11));
