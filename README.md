@@ -46,3 +46,8 @@ height="40px"/></a>
 [Chapter 18. 맵드 타입](https://www.notion.so/moondongmin/Chapter-18-d06caaef7d96488488d9a88c983ee6b9)
 
 [프로젝트-영화 예매 프로그램](https://github.com/MoonDongmin/typescript/tree/main/Project)
+
+### Effective TypeScript
+
+---
+[Chapter 01. 타입스크립트 알아보기](https://www.notion.so/moondongmin/Chapter-01-03427d9dcad243b5b2b40e00c0582ffa)
