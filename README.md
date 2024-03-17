@@ -9,6 +9,10 @@
 height="40px"/></a>
 <br>
 
+### "쉽게 시작하는 타입스크립트"
+
+----
+
 [Chapter 01. 타입스크립트 소개와 배경](https://www.notion.so/moondongmin/Chapter-01-0d66e208445f4808a9c7b1a7a8cdc91b)
 
 [Chapter 02. 타입스크립트 시작하기](https://www.notion.so/Chapter-02-12e56612b30742278dbb8fae904abc5f?pvs=21)
@@ -47,7 +51,7 @@ height="40px"/></a>
 
 [프로젝트-영화 예매 프로그램](https://github.com/MoonDongmin/typescript/tree/main/Project)
 
-### Effective TypeScript
+### "Effective TypeScript"
 
 ---
 [Chapter 01. 타입스크립트 알아보기](https://www.notion.so/moondongmin/Chapter-01-03427d9dcad243b5b2b40e00c0582ffa)
