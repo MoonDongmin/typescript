@@ -58,9 +58,8 @@ export function showMovieDetail(userInput) {
     console.log("===============================");
 }
 export function showMovieTime(userInput) {
+    console.log("=============================");
     console.log(`<${movies[userInput - 1].title}> 상영시간 `);
     console.log(`${movies[userInput - 1].showTime} `);
+    console.log("=============================");
 }
-// export function selectMovieTime(userInput: number): string[] {
-//     return movies[userInput - 1].showTime;
-// }

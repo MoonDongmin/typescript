@@ -47,3 +47,4 @@ export function seatMain() {
     displaySeat(seats);
     return numberOfPeople;
 }
+seatMain();

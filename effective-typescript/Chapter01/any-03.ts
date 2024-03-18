@@ -1,5 +1,5 @@
 let person: any = {
-    first: "Moon",
-    last: "Dongmin",
+    first: "Dongmin",
+    last: "Moon",
 };
 person.first;

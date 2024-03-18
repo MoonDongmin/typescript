@@ -2,10 +2,13 @@ import { movies, showMovieList, showMovieTime, } from "./movie";
 import * as readlineSync from "readline-sync";
 import { seatMain } from "./seat";
 export function ticket(title, time, people) {
+    console.log("=============================");
+    console.log("< Dongmin Cinema >");
     console.log(`${movies[title - 1].title}`);
     console.log(`상영시간: ${movies[title - 1].showTime[time - 1]}`);
     console.log(`인원: ${people}`);
     console.log(`총 가격: ${people * 14000}`);
+    console.log("=============================");
 }
 export function ticketing() {
     showMovieList();

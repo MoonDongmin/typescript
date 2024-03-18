@@ -8,10 +8,12 @@ function main() {
             showMovieList();
         }
         else if (userInput === 2) {
+            showMovieList();
             const movieNumber = readlineSync.questionInt("보고싶은 영화 상세 정보 번호를 누르시오: ");
             showMovieDetail(movieNumber);
         }
         else if (userInput === 3) {
+            showMovieList();
             const movieTime = readlineSync.questionInt("상영시간을 알고싶은 영화 번호를 누르시오: ");
             showMovieTime(movieTime);
         }
