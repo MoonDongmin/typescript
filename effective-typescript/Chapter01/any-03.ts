@@ -3,3 +3,4 @@ let person: any = {
     last: "Moon",
 };
 person.first;
+
