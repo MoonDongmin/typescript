@@ -55,3 +55,5 @@ height="40px"/></a>
 
 ---
 [Chapter 01. 타입스크립트 알아보기](https://www.notion.so/moondongmin/Chapter-01-03427d9dcad243b5b2b40e00c0582ffa)
+
+[Chapter 02.  타입스크립트의 타입 시스템](https://www.notion.so/moondongmin/Chapter-02-ac78ba65418649cc95818a68cd8362e0)
