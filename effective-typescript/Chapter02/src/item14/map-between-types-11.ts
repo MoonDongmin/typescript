@@ -4,4 +4,8 @@ interface Options {
     color: string;
     label: string;
 }
-type OptionsUpdate = {[k in keyof Options]?: Options[k]};
+
+// type OptionsUpdate = {[k in keyof Options]?: Options[k]};
+
+type OptionsKeys = keyof Options;
+// Type is "width" | "height" | "color" | "label"
