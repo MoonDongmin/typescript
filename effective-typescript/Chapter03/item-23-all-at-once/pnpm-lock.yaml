@@ -5,11 +5,18 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  lodash:
+    specifier: ^4.17.21
+    version: 4.17.21
   typescript:
     specifier: ^5.4.3
     version: 5.4.3
 
 packages:
+
+  /lodash@4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
 
   /typescript@5.4.3:
     resolution: {integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==}
