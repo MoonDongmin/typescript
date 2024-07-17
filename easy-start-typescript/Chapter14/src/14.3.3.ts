@@ -1,4 +1,4 @@
-import {B} from "../../SubData/Chapter04/04-6/B";
+import {B} from "../../../SubData/Chapter04/04-6/B";
 
 let book = {
     name: "길벗 타입스크립트",

@@ -9,6 +9,12 @@
 height="40px"/></a>
 <br>
 
+### "타입스크립트 교과서"
+
+----
+
+[1장. 타입스크립트 시작하기](https://moondongmin.notion.site/1-ba44d4f6a2d54bb8b07fc2f3c64bad54?pvs=4)
+
 ### "쉽게 시작하는 타입스크립트"
 
 ----
