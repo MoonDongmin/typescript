@@ -15,6 +15,8 @@ height="40px"/></a>
 
 [1장. 타입스크립트 시작하기](https://moondongmin.notion.site/1-ba44d4f6a2d54bb8b07fc2f3c64bad54?pvs=4)
 
+[2장. 기본 문법 익히기(1)](https://moondongmin.notion.site/2-1-578f66880aee433da779b8231b13d540?pvs=4)
+
 ### "쉽게 시작하는 타입스크립트"
 
 ----
