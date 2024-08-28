@@ -19,6 +19,8 @@ height="40px"/></a>
 
 [3장. lib.es5.d.ts 분석하기](https://moondongmin.notion.site/3-lib-es5-d-ts-10c7b7276fe94b218d555856c63c86ea?pvs=4)
 
+[4장. 타입스크립트 프로젝트 설정하기](https://moondongmin.notion.site/4-868b98f76bb94121a99ca5e1ff215ea3?pvs=4)
+
 ### "쉽게 시작하는 타입스크립트"
 
 ----
