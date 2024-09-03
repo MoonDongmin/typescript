@@ -63,9 +63,21 @@ height="40px"/></a>
 
 [프로젝트-영화 예매 프로그램](https://github.com/MoonDongmin/typescript/tree/main/Project)
 
-### "Effective TypeScript"
+### "중요 타입스크립트 정리"
 
 ---
-[Chapter 01. 타입스크립트 알아보기](https://www.notion.so/moondongmin/Chapter-01-03427d9dcad243b5b2b40e00c0582ffa)
+[01 타입스크립트와 개발 환경 만들기](https://moondongmin.notion.site/01-ae830201c80f407f9c94bd09901b64d6?pvs=4)
 
-[Chapter 02.  타입스크립트의 타입 시스템](https://www.notion.so/moondongmin/Chapter-02-ac78ba65418649cc95818a68cd8362e0)
+[02 타입스크립트 프로젝트 생성과 관리](https://www.notion.so/02-a099202f99034e4a996ac831c767147b?pvs=21)
+
+[03 객체와 타입](https://www.notion.so/03-4c8948f9ec304bd2b3bca485cbbf97c8?pvs=21)
+
+[04 함수와 메서드](https://www.notion.so/04-b9305db3dcfd4fb9bd725973777d03f1?pvs=21)
+
+[05 배열과 튜플](https://www.notion.so/05-c96eb341847e4108979b5cd51890fa58?pvs=21)
+
+[06 반복기와 생성기](https://www.notion.so/06-51f8fb3452a5424aa5cc477bab42d5d9?pvs=21)
+
+[07 Promise와 async/await 구문](https://www.notion.so/07-Promise-async-await-21f9d95207d2411a8468e502eb48c32a?pvs=21)
+
+[10 제네릭 프로그래밍](https://www.notion.so/10-78ee7829857547dcb06ba025267c743e?pvs=21)
