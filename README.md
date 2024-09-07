@@ -17,6 +17,8 @@ height="40px"/></a>
 
 [2장. 기본 문법 익히기(1)](https://moondongmin.notion.site/2-1-578f66880aee433da779b8231b13d540?pvs=4)
 
+[2장. 기본 문법 익히기(2)](https://www.notion.so/moondongmin/2-2-00542dae5e1349f0981c07e725526dcc?pvs=4)
+
 [3장. lib.es5.d.ts 분석하기](https://moondongmin.notion.site/3-lib-es5-d-ts-10c7b7276fe94b218d555856c63c86ea?pvs=4)
 
 [4장. 타입스크립트 프로젝트 설정하기](https://moondongmin.notion.site/4-868b98f76bb94121a99ca5e1ff215ea3?pvs=4)
