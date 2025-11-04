@@ -17,6 +17,7 @@ export type Event =
   event: KeyboardEvent;
 };
 
+// 제외하는 것
 type NonKeyDownEvents = Exclude<Event, { type: "keydown" }>;
 
 type tests = [
