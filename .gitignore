@@ -9,7 +9,7 @@
 #
 node_modules
 .idea
-
+**/.tool-versions
 
 # User-specific stuff
 .idea/**/workspace.xml
