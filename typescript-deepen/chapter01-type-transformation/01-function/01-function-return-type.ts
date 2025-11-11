@@ -1,7 +1,7 @@
 import { Equal, Expect } from "../../helper";
 
 const myFunc = () => {
-  return "hello";
+    return "hello";
 };
 
 type MyFuncReturn = ReturnType<typeof myFunc>;
