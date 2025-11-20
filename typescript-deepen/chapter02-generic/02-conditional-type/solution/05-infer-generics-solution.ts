@@ -1,0 +1,22 @@
+import {
+  Equal,
+  Expect,
+} from "../../../helper";
+
+interface MyComplexInterface<Event, Context, Name, Point> {
+  getEvent: () => Event;
+  getContext: () => Context;
+  getName: () => Name;
+  getPoint: () => Point;
+}
+
+type Example = MyComplexInterface<
+  "click",
+  "window",
+  "my-event",
+  { x: 12; y: 14 }
+>;
+
+type GetPoint<T> = T extends MyComplexInterface<unknown, unknown, unknown, infer TP> ? TP : never;
+
+type tests = [Expect<Equal<GetPoint<Example>, { x: 12; y: 14 }>>];
