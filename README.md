@@ -1,4 +1,4 @@
-# 📌 Typescript 공부하는 곳
+# 📌 Typescript 공부하는 곳 test
 
 ### ⚙️ 설정 환경
 `Webstrom`
